@@ -1,0 +1,19 @@
+let text1 = 'Welcome to Ukraine';
+let shtuka = text1.split('')
+let First = [1, 2, 3];
+let Second = [4, 5, 6];
+let merged = First.concat(Second);
+let text2 = 'hello world!'
+text2 = 'Hello World!'
+let text3 = [2,4,5,6]
+for (let i = 0; i < 4; i++) {
+  text3[i] = text3[i]*text3[i]*text3[i]
+}
+let text4 = ["привет мир"]
+text4 = ['ПрИвЕт МиР']
+console.log(text4)
+console.log(text3)
+console.log(text2);
+console.log(merged);
+console.log(shtuka);
+
